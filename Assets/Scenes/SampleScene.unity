@@ -2062,6 +2062,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 330585545}
+    - target: {fileID: 4255535563450896005, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1870085611}
     - target: {fileID: 4530799164774405633, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
