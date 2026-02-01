@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7135278512302858096}
+  - component: {fileID: 5691624369612789239}
   - component: {fileID: 11233200766811105}
   - component: {fileID: 1368883008315396967}
   m_Layer: 5
@@ -37,6 +38,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -30}
   m_SizeDelta: {x: -40, y: 50.6323}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5691624369612789239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398090831671106672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d698a67599be5439e43d8284b91f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpyAnimation
+  maxValue: {x: 1.02, y: 1.02, z: 1.02}
+  speed: 0.6
+  loop: 1
+  easing: 7
 --- !u!222 &11233200766811105
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -185,7 +202,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4226852622197127573}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -273,6 +290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5426710435151777862}
+  - component: {fileID: 683036100329432034}
   - component: {fileID: 1313518885682970145}
   - component: {fileID: 3278010895217840835}
   m_Layer: 5
@@ -301,6 +319,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -7.4579}
   m_SizeDelta: {x: 583, y: 214.0731}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &683036100329432034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6226733875643878951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee83f75a2349e345a7b16dfb7f34407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VerticalJumpyAnimation
+  maxValue: 1.01
+  speed: 0.8
+  loop: 1
+  easing: 7
 --- !u!222 &1313518885682970145
 CanvasRenderer:
   m_ObjectHideFlags: 0

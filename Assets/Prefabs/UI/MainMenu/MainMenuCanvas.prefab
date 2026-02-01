@@ -75,7 +75,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -128,25 +128,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8860687266892802308}
     m_Modifications:
-    - target: {fileID: 299990111677226222, guid: 26df23de23564664a96df9a937cb4438, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1651683170240945479}
     - target: {fileID: 1239046911079002300, guid: 26df23de23564664a96df9a937cb4438, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1651683170240945479}
-    - target: {fileID: 1239046911079002300, guid: 26df23de23564664a96df9a937cb4438, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowCanvas
-      objectReference: {fileID: 0}
     - target: {fileID: 3416218341408641453, guid: 26df23de23564664a96df9a937cb4438, type: 3}
       propertyPath: m_Name
       value: CreditsPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 7144374879075485097, guid: 26df23de23564664a96df9a937cb4438, type: 3}
-      propertyPath: m_Alpha
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8519333045737050414, guid: 26df23de23564664a96df9a937cb4438, type: 3}
       propertyPath: m_Pivot.x
@@ -251,10 +239,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8860687266892802308}
     m_Modifications:
-    - target: {fileID: 2468540978386071932, guid: f97ef175f8688134abcb00b64e013aeb, type: 3}
-      propertyPath: m_Alpha
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4226852622197127573, guid: f97ef175f8688134abcb00b64e013aeb, type: 3}
       propertyPath: m_Name
       value: InfoPanel
@@ -374,18 +358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainPanel
       objectReference: {fileID: 0}
-    - target: {fileID: 2739917818288826851, guid: 6775e82f8b97b0d4494721f82e3c2f47, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2886895003719300736, guid: 6775e82f8b97b0d4494721f82e3c2f47, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1651683170240945479}
-    - target: {fileID: 3489025938345780229, guid: 6775e82f8b97b0d4494721f82e3c2f47, type: 3}
-      propertyPath: m_Alpha
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4154661038821893368, guid: 6775e82f8b97b0d4494721f82e3c2f47, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
