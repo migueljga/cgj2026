@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5104166465209595895}
+  - component: {fileID: 5249654577859720500}
   - component: {fileID: 2399144537402902759}
   - component: {fileID: 3973468274528532875}
   m_Layer: 5
@@ -37,6 +38,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5249654577859720500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286391607976141707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee83f75a2349e345a7b16dfb7f34407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VerticalJumpyAnimation
+  maxValue: 1.3
+  speed: 0.5
+  loop: 1
+  easing: 7
 --- !u!222 &2399144537402902759
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -146,6 +163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5936814267019530748}
+  - component: {fileID: 7654735446662498165}
   - component: {fileID: 5010926847498330025}
   - component: {fileID: 8708878729892330886}
   - component: {fileID: 4154661038821893368}
@@ -176,6 +194,22 @@ RectTransform:
   m_AnchoredPosition: {x: -148, y: -58}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7654735446662498165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975149090528767079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d698a67599be5439e43d8284b91f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpyAnimation
+  maxValue: {x: 1.02, y: 1.02, z: 1.02}
+  speed: 0.6
+  loop: 1
+  easing: 7
 --- !u!222 &5010926847498330025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -332,6 +366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8196875789276322183}
+  - component: {fileID: 367149157694670116}
   - component: {fileID: 7208355155850052546}
   - component: {fileID: 7479712473627682562}
   m_Layer: 5
@@ -360,6 +395,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -40}
   m_SizeDelta: {x: -39.999992, y: 50.6323}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &367149157694670116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3955468732686408136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d698a67599be5439e43d8284b91f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpyAnimation
+  maxValue: {x: 1.02, y: 1.02, z: 1.02}
+  speed: 0.6
+  loop: 1
+  easing: 7
 --- !u!222 &7208355155850052546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -469,6 +520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4148378943874747734}
+  - component: {fileID: 103523485902666012}
   - component: {fileID: 10296720056522647}
   - component: {fileID: 6659916537730566120}
   m_Layer: 5
@@ -497,6 +549,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &103523485902666012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4108651060556587100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee83f75a2349e345a7b16dfb7f34407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VerticalJumpyAnimation
+  maxValue: 1.3
+  speed: 0.5
+  loop: 1
+  easing: 7
 --- !u!222 &10296720056522647
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -608,6 +676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5267480639757663597}
+  - component: {fileID: 5582505353992105368}
   - component: {fileID: 8604691357927173671}
   - component: {fileID: 5209735123320739279}
   - component: {fileID: 2354379335457457132}
@@ -638,6 +707,22 @@ RectTransform:
   m_AnchoredPosition: {x: -148, y: -7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5582505353992105368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4161487601295922245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d698a67599be5439e43d8284b91f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpyAnimation
+  maxValue: {x: 1.02, y: 1.02, z: 1.02}
+  speed: 0.6
+  loop: 1
+  easing: 7
 --- !u!222 &8604691357927173671
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -741,6 +826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7462124058777053158}
+  - component: {fileID: 2882218408343443141}
   - component: {fileID: 1461600878949096321}
   - component: {fileID: 8711536719848911568}
   m_Layer: 5
@@ -769,6 +855,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2882218408343443141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5503185349679790635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee83f75a2349e345a7b16dfb7f34407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VerticalJumpyAnimation
+  maxValue: 1.3
+  speed: 0.5
+  loop: 1
+  easing: 7
 --- !u!222 &1461600878949096321
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -878,6 +980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1792156471460097577}
+  - component: {fileID: 2383955252900679397}
   - component: {fileID: 1724548134614285786}
   - component: {fileID: 5847438929950986258}
   - component: {fileID: 2886895003719300736}
@@ -908,6 +1011,22 @@ RectTransform:
   m_AnchoredPosition: {x: -148, y: -109}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2383955252900679397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7167039503959149384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d698a67599be5439e43d8284b91f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpyAnimation
+  maxValue: {x: 1.02, y: 1.02, z: 1.02}
+  speed: 0.6
+  loop: 1
+  easing: 7
 --- !u!222 &1724548134614285786
 CanvasRenderer:
   m_ObjectHideFlags: 0
