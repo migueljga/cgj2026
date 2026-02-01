@@ -956,7 +956,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 194778642, guid: d55dcf354460dbe439ba9b9fd373f086, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1349,7 +1349,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 194778642, guid: d55dcf354460dbe439ba9b9fd373f086, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1986,6 +1986,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 537386200776296783, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
+      propertyPath: m_text
+      value: Score
+      objectReference: {fileID: 0}
+    - target: {fileID: 2402284953276830597, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
+      propertyPath: m_text
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431118381576697553, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
+      propertyPath: m_text
+      value: 'Score: 00000000'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765252044912874873, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
+      propertyPath: m_text
+      value: Retry
+      objectReference: {fileID: 0}
     - target: {fileID: 3404845838940196080, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1998,6 +2014,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1870085611}
+    - target: {fileID: 4530799164774405633, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackToMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 5177162237303929265, guid: cc62550109bb2744b99853e7bc50c164, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2122,6 +2142,10 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 3126140452262193015}
+    - target: {fileID: 2498410943205236617, guid: 9b5c593af24b7924fae5c84080533ae8, type: 3}
+      propertyPath: startBeat
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2498410943205236617, guid: 9b5c593af24b7924fae5c84080533ae8, type: 3}
       propertyPath: flashImage
       value: 

@@ -10,13 +10,13 @@ public class GameStatsController : MonoBehaviour
 
     private void Start()
     {
-        pointsText.text = $"Puntos: 0";
+        pointsText.text = $"Score: 0";
         comboText.text = "";
     }
 
     private void Update()
     {
-        pointsText.text = $"Puntos: {gameManager.score}";
+        pointsText.text = $"Score: {gameManager.score}";
         if (latestCombo != gameManager.combo)
         {
             latestCombo = gameManager.combo;
